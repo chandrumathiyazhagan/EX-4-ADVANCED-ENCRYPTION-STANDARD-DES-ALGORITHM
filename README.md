@@ -1,13 +1,19 @@
+# Ex-7 - Implement DES Encryption and Decryption
+
 ## AIM:
 
-Implementation of Pseudorandom Number Generation Using Standard library.
-
+ Implementation of Pseudorandom Number Generation Using Standard library
+ 
 ## ALGORITHM:
 
 1.Get the input and convert it as block cipher.
+
 2.The plain text is initially permuted and split into 2 equal halves.
+
 3.It undergoes 16 rounds of encryption.
+
 4.These 2 halves are finally rejoined to give cipher text.
+
 5.The same happens in decryption process but in an inverse manner.
 
 ## PROGRAM:
