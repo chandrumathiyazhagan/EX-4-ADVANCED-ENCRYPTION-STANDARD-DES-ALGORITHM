@@ -1,14 +1,16 @@
-AIM:
+## AIM:
+
 Implementation of Pseudorandom Number Generation Using Standard library.
 
-ALGORITHM:
+## ALGORITHM:
+
 1.Get the input and convert it as block cipher.
 2.The plain text is initially permuted and split into 2 equal halves.
 3.It undergoes 16 rounds of encryption.
 4.These 2 halves are finally rejoined to give cipher text.
 5.The same happens in decryption process but in an inverse manner.
 
-PROGRAM:
+## PROGRAM:
 ```C
 #include <stdio.h>
 #include <string.h>
@@ -75,7 +77,10 @@ int main() {
 }
 ```
 
-OUTPUT:
+## OUTPUT:
 
-RESULT:
-	Hence, for the given input text and key the DES algorithm is successfully simulated.
+![Screenshot 2024-10-21 105350](https://github.com/user-attachments/assets/605509c2-d5df-4692-a9af-c0f41ef12992)
+
+## RESULT:
+
+Hence, for the given input text and key the DES algorithm is successfully simulated.
